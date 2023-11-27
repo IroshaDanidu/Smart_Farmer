@@ -14143,7 +14143,7 @@ nav ul li a:hover {
 /*-- banner --*/
 
 .w3l-banner {
-    background: url(/assets/images/00004.jpg) no-repeat center;
+    background: url(/00004.jpg) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
