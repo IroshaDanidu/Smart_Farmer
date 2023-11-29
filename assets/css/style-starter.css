@@ -806,6 +806,7 @@ pre code {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    margin-top: 10px;
 }
 
 .col {
@@ -13639,7 +13640,7 @@ ul.navbar-nav {
     text-transform: capitalize;
     transition: all 0.5s ease;
     padding: 10px 0 10px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: #fff;
     letter-spacing: .5px;
@@ -14143,7 +14144,7 @@ nav ul li a:hover {
 /*-- banner --*/
 
 .w3l-banner {
-    background: url(00004.jpg) no-repeat center;
+    background: url(/00004.jpg) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
@@ -14923,20 +14924,32 @@ ul.social li a {
     -o-border-radius: 50%;
 }
 #free{
-    background-color: #008000;
-    font-size: 25px;
-    color: #fff;
-    padding: 5px;
-    padding-left: 14px;
-    padding-right: 14px;
+    background-color: #2a7d2e;
+    text-transform: uppercase;
+    font-weight: 700;    text-decoration: none;
+    color: #fff;    display: inline-block;
+    vertical-align: middle;
+    font: inherit;
+    text-align: center;
     margin-top: 20px;
-    border-radius: 22px;
-    border: none;
-    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 1.25rem 1.6rem;
+    transition: all .3s ease-in-out;
+    border-radius: 30px;
+    min-width: 270px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,);
+   border: none;
+    text-decoration: none;
+    outline: 0;
     font-weight: bold;
+    letter-spacing: 1px;
+}
 
-    
 
+
+
+#free:hover{
+    background-color: #005700 ;
 }
 
 #movetop {
